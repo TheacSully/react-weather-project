@@ -1,0 +1,29 @@
+col-6 ul {
+  margin-top: 25px;
+  margin-left: 40px;
+  list-style: none;
+}
+
+.weather-temperature {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #0a2a5b7a;
+  border-radius: 100px;
+  width: 250px;
+  background-color: transparent;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  height: 74px;
+  width: 74px;
+}
+
+.weather-temperature strong {
+  color: #2f3c4f;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1;
+}
