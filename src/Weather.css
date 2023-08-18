@@ -33,15 +33,21 @@
 .Weather .weather-temperature {
   border: #2f3c4f solid;
   border-radius: 100px;
+  width: 250px;
 }
 
-.Weather .weather-temperature strong {
+.Weather .weather-temperature .temperature {
   color: #2f3c4f;
   font-weight: 400;
   font-size: 58px;
   line-height: 1;
   margin-top: 15px;
   opacity: 85%;
+}
+
+.Weather .weather-temperature .units {
+  margin-top: 15px;
+  margin-left: 5px;
 }
 
 .Weather .details {
