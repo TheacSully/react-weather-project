@@ -25,15 +25,25 @@ export default function Weather() {
       </ul>
       <div className="row">
         <div className="col-6">
-          <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" />
-          6°C
+          <div class="d-flex weather-temperature">
+            <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" />
+            <strong id="temperature">12°C</strong>
+          </div>
         </div>
         <div className="col-6">
-          <ul>
-            <li>Precipitation: 15%</li>
-            <li>Humidity: 15%</li>
-            <li>Wind Speed: 15kmph </li>
-          </ul>
+          <div className="details">
+            <ul>
+              <li>
+                Precipitation:<strong> 15% </strong>
+              </li>
+              <li>
+                Humidity:<strong> 15%</strong>
+              </li>
+              <li>
+                Wind Speed: <strong>15kmph </strong>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
