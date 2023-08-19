@@ -9,14 +9,16 @@ export default function App() {
       </div>
       <footer>
         {" "}
-        Coded by Thea Sullivan and available on{" "}
-        <a
-          href="https://github.com/TheacSully"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Github
-        </a>
+        <p>
+          Coded by Thea Sullivan and available on{" "}
+          <a
+            href="https://github.com/TheacSully"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </p>
       </footer>
     </div>
   );

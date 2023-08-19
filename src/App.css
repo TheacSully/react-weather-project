@@ -1,5 +1,5 @@
 body {
-  background-image: url(./daysky.png);
+  background-image: url(./backgroundimage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10,17 +10,25 @@ body {
 }
 
 .App .Container {
-  max-width: 100%;
-  margin: 30px;
-  padding: 20px;
-  border: 2px solid;
-  border-radius: 5px;
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
   border: 3px solid #0a2a5bb1;
   border-radius: 5px;
-  background: linear-gradient(to right, #f5efdefe 0%, #53a5e4 100%);
+  background: linear-gradient(to right, #def5f2fe 0%, #7ba8ca 100%);
+}
+
+.App footer {
+  color: black;
+  background-color: #acbdcb;
+  opacity: 50%;
+  display: block;
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 0px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .App footer a {
