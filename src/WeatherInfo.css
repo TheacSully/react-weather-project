@@ -31,12 +31,13 @@
 
 .WeatherInfo .temperature {
   margin-top: 30px;
-  font-size: 56px;
+  font-size: 52px;
 }
 
 .WeatherInfo .weather-temperature {
   border: #2f3c4f solid;
   border-radius: 100px;
+  width: 250px;
 }
 
 .WeatherInfo .details {
@@ -46,6 +47,16 @@
 @media (max-width: 560px) {
   .WeatherInfo .temperature {
     font-size: 24px;
-    margin-left: -10px;
+    margin-top: 15px;
+  }
+  .WeatherInfo .weather-temperature {
+    width: 155px;
+    margin-top: 30px;
+  }
+  .WeatherInfo img {
+    height: 60px;
+  }
+  .WeatherInfo .details li {
+    font-size: 12px;
   }
 }

@@ -10,7 +10,7 @@ body {
 }
 
 .App .Container {
-  max-width: 600px;
+  max-width: 550px;
   margin: 30px auto;
   padding: 20px;
   border: 3px solid #0a2a5bb1;
@@ -23,7 +23,7 @@ body {
   background-color: #acbdcb;
   opacity: 50%;
   display: block;
-  max-width: 600px;
+  max-width: 550px;
   margin: 0px auto;
   padding: 0px;
   border-radius: 20px;
@@ -39,4 +39,10 @@ body {
 .App footer a:hover {
   cursor: pointer;
   opacity: 0.9;
+}
+
+@media (max-width: 560px) {
+  .App .Container {
+    width: 350px;
+  }
 }

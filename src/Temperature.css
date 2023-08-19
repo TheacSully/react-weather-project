@@ -1,6 +1,7 @@
 .temperature .units {
-  font-size: 18px;
+  font-size: 15px;
   margin-left: 5px;
+  margin-right: 5px;
 }
 .temperature a {
   text-decoration: none;
