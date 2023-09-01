@@ -2,6 +2,10 @@
   margin: 20px;
 }
 
+.Weather .btn {
+  background-color: #3258819f;
+}
+
 @media (max-width: 560px) {
   .btn {
     font-size: 12px;
